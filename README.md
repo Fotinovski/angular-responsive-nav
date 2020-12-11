@@ -1,2 +1,1 @@
-# angular-responsive-nav
-Simple responsive navigation made in Angular 
+## Simple responsive navigation in Angular

@@ -1,0 +1,19 @@
+<ul class="navigation" [ngClass]="{'navigation--active': isOpenNav}">
+
+    <li routerLinkActive="navigation__link--active" [routerLinkActiveOptions]="{exact: true}" class="navigation__item">
+      <a routerLink="/" class="navigation__link" (click)="closeNav()">Home</a>
+    </li>
+  
+    <li routerLinkActive="navigation__link--active" class="navigation__item">
+      <a routerLink="/about" class="navigation__link" (click)="closeNav()">About Us</a>
+    </li>
+  
+    <li routerLinkActive="navigation__link--active" class="navigation__item">
+      <a routerLink="/services" class="navigation__link" (click)="closeNav()">Services</a>
+    </li>
+  
+    <li routerLinkActive="navigation__link--active" class="navigation__item">
+      <a routerLink="/contact" class="navigation__link" (click)="closeNav()">Contact</a>
+    </li>
+  
+  </ul>
